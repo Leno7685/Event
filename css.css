@@ -1,0 +1,51 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #839df3, #9fc9ff);
+}
+
+.glavniNav{
+    background: linear-gradient(135deg, #6982d3, #84ace0);
+    padding-right: 7%;
+    font-weight: bold;
+}
+
+a.home{
+    background-color: rgb(85, 99, 180);
+    color:rgb(241, 241, 241);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+
+a.home:hover{
+    color:white;
+    background-color: rgb(59, 72, 145);
+    border-radius: 7px;
+}
+
+.naslovKreiraj{
+    margin-bottom: 45px;
+}
+
+.buttons{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 40px;
+    background-color: #719ed8;
+    display:flex;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
